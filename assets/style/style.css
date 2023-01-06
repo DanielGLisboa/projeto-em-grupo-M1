@@ -25,11 +25,7 @@ header{
 }
 .logo{
     height: 65%;
-<<<<<<< HEAD
-    border-radius: 10vh;
-=======
     border-radius: 10vh;    
->>>>>>> 1f9a31453776a659fabb64c145c15a1a8178c917
 }
 .menu-bar{
     display: flex;
@@ -72,9 +68,5 @@ footer{
     height: 4.5vh;
 }
 #byFor{
-<<<<<<< HEAD
-    font-size: 1.5vh;
-=======
     font-size: 2vh;
->>>>>>> 1f9a31453776a659fabb64c145c15a1a8178c917
 }

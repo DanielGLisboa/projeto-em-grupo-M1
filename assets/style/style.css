@@ -12,7 +12,7 @@ body {
     background-image: url('../img/home.png');
     background-size: cover;
     background-repeat: no-repeat;
-
+    background-position: center;
 }
 /* //////////////////////// Cabeçalho //////////////////// */
 /* Atribuindo proprieades da div que contém o cabeçalho */
@@ -22,21 +22,18 @@ header{
     height: 20%;
     justify-content: space-evenly;
     align-items: center;
-
 }
 .logo{
-    width: 8%;
-    height: 80%;
-    border-radius: 50%;
+    height: 65%;
+    border-radius: 10vh;    
 }
-
 .menu-bar{
     display: flex;
     width: 80%;
     height: 65%;
     justify-content: space-around;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 2vh;
     background-color: #c2e0f1c7;
 }
 .link-menu-bar{
@@ -60,6 +57,10 @@ footer{
     align-items: center;
     text-align: end;
 }
+.img-footer{
+    display: flex;
+    width: 4.5vw;
+}
 #icon-insta{
     height: 4vh;
 }
@@ -67,5 +68,5 @@ footer{
     height: 4.5vh;
 }
 #byFor{
-    font-size: x-small;
+    font-size: 2vh;
 }

@@ -1,6 +1,8 @@
 /* Body da página */
 body {
-    background: url("../images/fundo.png");
+    background: url("../img/fundoContato.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   /* Field para ajuste do corpo do form */

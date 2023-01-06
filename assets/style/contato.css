@@ -1,0 +1,66 @@
+/* Body da página */
+body {
+    background: url("../images/fundo.png");
+  }
+  
+  /* Field para ajuste do corpo do form */
+  fieldset {
+    border: 1px solid;
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  
+  /* Ajuste dos inputs */
+  .div-input {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+  }
+  
+  input {
+    border-radius: 10%;
+    outline: none;
+    height: 3vh;
+    width: 96%;
+  }
+  
+  /* Tag para ajuste do botão */
+  button {
+    border-radius: 12%;
+    border: 1px solid;
+    width: 96%;
+  }
+  
+  /* Ajuste da text-area */
+  .div-msg {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  textarea {
+    width: 100%;
+    resize: none;
+    outline: none;
+    height: 15vh;
+  }
+  
+  /* Ajuste da Tag form */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+    width: 60%;
+    height: 70%;
+    background-color: #c2e0f1c7;
+    border-radius: 2vh;
+  }
+  

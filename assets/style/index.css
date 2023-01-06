@@ -1,3 +1,10 @@
+h2{
+    font-size: 2vw;
+}
+p{
+    font-size: 3vh;
+}
+
 .img-home{
     width: 20vh;
     height: 20vh;
@@ -37,5 +44,5 @@
     height: 50vh;
     display: flex;
     align-items: center;
-    text-align: left;
+    text-align: justify;
 }

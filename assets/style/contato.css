@@ -4,16 +4,34 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   /* Field para ajuste do corpo do form */
-  fieldset {
-    border: 1px solid;
-    width: 40%;
-    height: 90%;
+  .div-form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+    width: 60%;
+    height: 90%;
+    background-color: #c2e0f1c7;
+    border-radius: 2vh;
+  }
+  
+  form {
+    width: 40%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.5vh;
   }
   
   
@@ -21,21 +39,32 @@ body {
   .div-input {
     display: flex;
     flex-direction: column;
-    border: 1px solid;
+    width: 80%;
+  
   }
   
   input {
-    border-radius: 10%;
+    border: none;
+    border-radius: 2vh;
     outline: none;
-    height: 3vh;
-    width: 96%;
+    height: 4.5vh;
+    font-size: 2.5vh;
   }
   
   /* Tag para ajuste do botão */
   button {
-    border-radius: 12%;
-    border: 1px solid;
-    width: 96%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2vh;
+    font-size:2.5vh ;
+    width: 55%;
+    height: 5vh;
+  }
+
+  .img-btn-submit{
+    width: 30%;
   }
   
   /* Ajuste da text-area */
@@ -43,27 +72,15 @@ body {
     width: 95%;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
   
   textarea {
+    border: none;
     width: 100%;
     resize: none;
     outline: none;
     height: 15vh;
-  }
-  
-  /* Ajuste da Tag form */
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    padding: 2%;
-    width: 60%;
-    height: 70%;
-    background-color: #c2e0f1c7;
     border-radius: 2vh;
-    border: 1px solid;
   }
   
+

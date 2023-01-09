@@ -1,0 +1,42 @@
+body{
+    background-image: url(../img/equipefundo.png);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.squaresA{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.squaresB{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.square{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width:20%;
+    height:35vh;
+    border-radius: 2vh;
+    background-color: #c2e0f1c7;
+   
+}
+
+.square p{
+    font-size: 2.5vh;
+    margin: 2%;
+}
+
+.imgSquare{
+    width: 35%;
+    height: 40%;
+    border-radius: 2vh;
+    margin: 2%;
+}

@@ -9,19 +9,19 @@
     <link rel="stylesheet" href="../style/Produto.css">
 </head>
 <body>
-    <header>
+    <header id="header">
             <img class="logo" src="../img/logo.png" alt="Amontadas Boat">
         <div class="menu-bar">
-            <ul>
+            <ul id="links">
                 <li><a class="link-menu-bar" href="../../index.html">Quem Somos</a></li>
                 <li id='localPage'><a  class="link-menu-bar" href="">Produtos</a><img id='iconLocalPage' src="../img/iconLocalPage.png" alt=""></li>
                 <li><a class="link-menu-bar" href="">Equipe</a></li>
                 <li><a class="link-menu-bar" href="">Contato</a></li>
             </ul>
-            <img id='iconMenuMobile' src="../img/menuMobileIcon.svg" alt="">
+            <img onclick="exibeMenu()" id='iconMenuMobile' src="../img/menuMobileIcon.svg" alt="">
         </div>
     </header>
-    <main>
+    <main id="main">
         <section id="secBoats">
             <div class="buttonNavigation"><img src="../img/left.svg" alt=""></div>
             <div id='Lancha' class="boat">
@@ -88,5 +88,6 @@
             <p id="byFor">Desenvolvido por 2023 TechDev’s</p>
             <p id="numberContact">+55(11)2345-6789</p>
     </footer>
+    <script src="/assets/js/header.js" ></script>
 </body>
 </html>

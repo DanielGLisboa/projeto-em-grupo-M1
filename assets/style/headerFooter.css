@@ -55,7 +55,6 @@ header{
     display: flex;
     justify-content: center;
     width: 20%;
-    border-radius: 2vh;
 }
 
 .logo{
@@ -112,7 +111,7 @@ footer{
 }
 
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1024px){
 
     header{
         padding: 0 5rem 0 2rem;
@@ -123,11 +122,34 @@ footer{
         display: none;
     }
 
+    .menu-bar ul{
+        display: none;
+        width: 70%;
+        height: 80%;
+        flex-direction: column;
+    }
+
+    .menu-bar ul li{
+        width: 90%;
+       
+    }
+
+    .link-menu-bar{
+        font-size: 4vh;
+    }
+
+    #iconLocalPage{
+        width: 10%;
+    }
+
     #iconMenuMobile{
         display: flex;
     }
 
     .menu-bar{
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: space-evenly;
         width: 20%;
     }
 
@@ -140,26 +162,42 @@ footer{
 }
 
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 767px){
     header{
         padding: 0 2.5rem 0 2rem;
         justify-content: space-between;
+        
     }
 
     #iconMenuMobile{
-        width: 25%;
+        justify-self: end;
+        width: 25%
     }
 
     .menu-bar ul{
+
         display: none;
+        width: 70%;
+        height: 80%;
+        flex-direction: column;
     }
 
-    #iconMenuMobile{
-        display: flex;
+    .menu-bar ul li{
+        width: 90%;
+    }
+
+    .link-menu-bar{
+        
+        font-size: 3vh;
+    }
+    #iconLocalPage{
+        width: 15%;
     }
 
     .menu-bar{
-        width: 30%;
+        flex-direction: column-reverse;
+        display: flex;
+        width: 20%;
     }
 
     #byFor{

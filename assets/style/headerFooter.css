@@ -73,6 +73,9 @@ header{
     color: #001E30;
     font-size: 2.3vw;
 }
+.menuMobile{
+    display: none;
+}
 /*///////////////////////// Main /////////////////////////*/
 main{
     width: 100%;
@@ -108,56 +111,69 @@ footer{
 }
 
 
-@media screen and (max-width: 850px){
+@media (min-width: 768px) and (max-width: 1024px){
 
     header{
-        padding: 0 5rem 0 2rem;
-        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
     }
-
-    .menu-bar ul{
+    .menuMobile{
+        width: 20%;
+        height: 10.5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #c2e0f1c7;
+        border-radius: 10px;
+    }
+    
+    .iconMenuBar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        transition: 0.3;
+    }
+    .menu-bar{
         display: none;
     }
-
     #iconMenuMobile{
         display: flex;
-    }
-
-    .menu-bar{
-        width: 20%;
-    }
-
-    .buttonNavigation{
-        display: flex;
-        align-items: center;
-        width: 10%;
     }
 
 }
 
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 767px){
     header{
-        padding: 0 2.5rem 0 2rem;
-        justify-content: space-between;
-    }
-
-    #iconMenuMobile{
-        width: 25%;
-    }
-
-    .menu-bar ul{
-        display: none;
-    }
-
-    #iconMenuMobile{
         display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .menuMobile{
+        width: 30%;
+        height: 12.5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #c2e0f1c7;
+        border-radius: 10px;
+    }
+    
+    .iconMenuBar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    #iconBar{
+        width: 50%;
     }
 
     .menu-bar{
-        width: 30%;
+        display: none;
     }
-
     #byFor{
         font-size: 1.5vh;
     }

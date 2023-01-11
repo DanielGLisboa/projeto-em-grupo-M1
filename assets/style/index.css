@@ -1,9 +1,3 @@
-h2{
-    font-size: 2vw;
-}
-p{
-    font-size: 3vh;
-}
 .img-home{
     width: 20vh;
     height: 20vh;
@@ -31,17 +25,64 @@ p{
     flex-direction: column;
     padding-top: 5vh;
     background-color: #c2e0f1c7;
-    width: 90%;
+    width: 80%;
     height: 50vh;    
-}
-.title-history{
-    text-align: center;
+    border-radius: 10px;
 }
 .history{
-    gap: 2%;
-    padding: 0% 2%;
+    text-align: center;
+    padding: 5px;
     height: 50vh;
     display: flex;
     align-items: center;
     text-align: justify;
+}
+.imgButton{
+    display: none;
+}
+#text1, #text2, #text3{
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 767px){
+    .content-history-home{
+        width: 80%;
+        height: 55vh;
+    }
+    .imgButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 5%;
+        height: 55vh;
+        margin: 5px;
+    }
+    #buttonRight, #buttonLeft{
+        width: 35px;
+        height: 35px;
+    }
+    #veleiro{
+        display: none;
+    }
+    #jetSki{
+        display: none;
+    }
+    #text2 {
+        display: none;
+    }
+    #text3{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .img-home{
+        width: 30%;
+        height: 90%;
+    }
+    .content-history-home{
+        width: 80%;
+        height: 58vh;
+    }
 }

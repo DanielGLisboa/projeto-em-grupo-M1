@@ -4,63 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amontadas Boat</title>
+    <title>Amontada's Boat</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/logotitle.png">
     <link rel="stylesheet" href="assets/style/headerFooter.css">
     <link rel="stylesheet" href="assets/style/index.css">
 </head>
 <body>
     <header>
             <img class="logo" src="assets/img/logo.png" alt="Amontadas Boat">
-        <div class="menu-bar">
+            <div class="menuMobile"onclick="menuOnClick()" >
+                <div class="iconMenuBar" ><img id="iconBar" src="assets/img/menuMobileIcon.svg" alt=""></div>
+            </div>
+        <nav class="menu-bar">
             <ul>
-                <li id='localPage'><a  class="link-menu-bar" href="">Quem Somos</a><img id='iconLocalPage' src="assets/img/iconLocalPage.png" alt=""></li>
-                <li><a class="link-menu-bar" href="">Produtos</a></li>
-                <li><a class="link-menu-bar" href="">Equipe</a></li>
-                <li><a class="link-menu-bar" href="">Contato</a></li>
+                <li><a  class="link-menu-bar" href="index.html">Quem Somos</a><img id='iconLocalPage' src="assets/img/iconLocalPage.png" alt=""></li>
+                <li><a class="link-menu-bar" href="assets/html/produtos.html">Produtos</a></li>
+                <li><a class="link-menu-bar" href="assets/html/equipe.html">Equipe</a></li>
+                <li><a class="link-menu-bar" href="assets/html/contato.html">Contato</a></li>
             </ul>
-            <img id='iconMenuMobile' src="assets/img/menuMobileIcon.svg" alt="">
-        </div>
+            
+        </nav>
     </header>
     <main>
         <section class="container-home">
             <div class="content-home">
-                <img class="img-home" src="assets/img/lanchaHome.jpg" alt="Lancha">
-                <img class="img-home" src="assets/img/veleiroHome.jpg" alt="Veleiro">
-                <img class="img-home" src="assets/img/jetSkiHome.jpg" alt="Jet Ski">
+                <img class="img-home" id="lacha" src="assets/img/lanchaHome.jpg" alt="Lancha">
+                <img class="img-home" id="veleiro" src="assets/img/veleiroHome.jpg" alt="Veleiro">
+                <img class="img-home" id="jetSki" src="assets/img/jetSkiHome.jpg" alt="Jet Ski">
             </div>
         </section>
         <section class="container-history-home">
+            <div class="imgButton" >
+                <img id="buttonLeft" src="assets/img/setaEsquerda.svg" alt="">
+            </div>
             <div class="content-history-home">
-                <div class="title-history">
-                    <h2>
-                        Nossa História
-                    </h2>
-                </div>
-
                 <div class="history">
-                    <p>
+                    <p id="text1">
                         Já imaginou explorar o mar de Amontada e de praias vizinhas? Nós da Amontada’s boat somos uma empresa criada em 2017 especializada em aluguéis de barcos, veleiros, lanchas e jet-ski e dentre isso também oferecemos pacotes com passeios turísticos e outras atividades mais leves como o mergulho. Seja qual for a sua preferência, garantimos a sua diversão!
                     </p>
-                    <p>
-                        Dentre nossos serviços, oferecemos a possibilidade de alugar com ou sem capitão. Se não tem habilitação para navegar, não se preocupe, pois aqui você pode encontrar barcos com capitão, e assim, você pode deixar um profissional assumir o comando enquanto curte este momento único! Temos uma equipe de especialistas pronta para planejar e realizar com carinho sua experiência a bordo.                    </p>
-                    <p>
-                        O aluguel dos nossos equipamentos pode ser por horas, o dia inteiro ou até mesmo vários dias, tudo depende da disponibilidade, e da sua agenda! Foco na satisfação de nossos clientes, tratamos com capricho cada detalhe da sua jornada conosco, seja no aluguel de veleiros ou passeios, entre em contato conosco pelo nosso email ou até mesmo Whatsapp e saiba mais.                    </p>
+                    <p id="text2">
+                        Dentre nossos serviços, oferecemos a possibilidade de alugar com ou sem capitão. Se não tem habilitação para navegar, não se preocupe, pois aqui você pode encontrar barcos com capitão, e assim, você pode deixar um profissional assumir o comando enquanto curte este momento único! Temos uma equipe de especialistas pronta para planejar e realizar com carinho sua experiência a bordo.
+                    </p>
+                    </p>
+                    <p id="text3">
+                        O aluguel dos nossos equipamentos pode ser por horas, o dia inteiro ou até mesmo vários dias, tudo depende da disponibilidade, e da sua agenda! Foco na satisfação de nossos clientes, tratamos com capricho cada detalhe da sua jornada conosco, seja no aluguel de veleiros ou passeios, entre em contato conosco pelo nosso email ou até mesmo Whatsapp e saiba mais.
+                    </p>
+                    </div>
                 </div>
+                <div class="imgButton" >
+                    <img id="buttonRight" src="assets/img/setaDireita.svg" alt="">
             </div>
         </section>
     </main>
     <footer>
            <div class="img-footer">
-                <img id="icon-insta" src="assets/img/Instagram.svg" alt="Instagram">
-                <img id="icon-whats" src="assets/img/whatsapp.svg" alt="Whatsapp">
+            <a href="https://www.instagram.com/" target="_blank"><img id="icon-insta" src="assets/img/Instagram.svg" alt="Instagram"></a>
+            <a href="https://www.whatsapp.com/" target="_blank"><img id="icon-whats" src="assets/img/whatsapp.svg" alt="Whatsapp"></a>
            </div>
 
             <p id="byFor">Desenvolvido por 2023 TechDev’s</p>
             <p id="numberContact">+55(11)2345-6789</p>
     </footer>
 
-    
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js%22%3E"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
 

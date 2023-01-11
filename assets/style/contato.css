@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@1,200&display=swap');
 /* Body da página */
 body {
     background: url("../img/fundoContato.png");
@@ -9,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
   }
   
   /* Field para ajuste do corpo do form */
@@ -41,7 +42,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 80%;
-  
   }
   
   input {
@@ -61,7 +61,7 @@ body {
     align-items: center;
     border-radius: 2vh;
     font-size:2.5vh ;
-    width: 60%;
+    width: 50%;
     height: 5vh;
   }
 
@@ -110,13 +110,13 @@ body {
     width: 80%;
   }
   .div-msg{
-    width: 80%;
+    width: 90%;
   }
   .div-form{
     width: 80%;
   }
   form{
-    width: 80%;
+    width: 45%;
   }
 }
 /* Responsividade formulário tablet*/
@@ -129,6 +129,9 @@ body {
   }
   .div-form{
     width: 80%;
+  }
+  form{
+    width: 60%;
   }
 }
 

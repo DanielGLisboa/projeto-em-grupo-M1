@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   
   /* Field para ajuste do corpo do form */
@@ -18,14 +19,14 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 2%;
-    width: 60%;
+    width: 90%;
     height: 90%;
     background-color: #c2e0f1c7;
     border-radius: 2vh;
   }
   
   form {
-    width: 40%;
+    width: 80%;
     height: 98%;
     display: flex;
     flex-direction: column;
@@ -49,6 +50,7 @@ body {
     outline: none;
     height: 4.5vh;
     font-size: 2.5vh;
+    padding: 10px;
   }
   
   /* Tag para ajuste do botão */
@@ -96,7 +98,39 @@ body {
     outline: none;
     height: 15vh;
     border-radius: 2vh;
+    padding: 10px;
   }
+
+
+
+/* Responsividade formulário mobile*/
+
+@media screen and (min-width: 767px) {
+  .div-input{
+    width: 80%;
+  }
+  .div-msg{
+    width: 80%;
+  }
+  .div-form{
+    width: 80%;
+  }
+  form{
+    width: 80%;
+  }
+}
+/* Responsividade formulário tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .div-input{
+    width: 80%;
+  }
+  .div-msg{
+    width: 80%;
+  }
+  .div-form{
+    width: 80%;
+  }
+}
 
 
 

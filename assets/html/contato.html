@@ -5,36 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amontadas Boat</title>
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/img/logotitle.png">
+    <link rel="stylesheet" href="../style/headerFooter.css">
     <link rel="stylesheet" href="../style/contato.css">
 </head>
 <body>
     <!-- Menu da página  -->
     <header>
-            <img class="logo" src="../img/logo.png" alt="Amontadas Boat">
-        <div class="menu-bar">
-            <a class="link-menu-bar" href="">Serviços</a>
-            <a class="link-menu-bar" href="">Nossa Equipe</a>
-            <a class="link-menu-bar" href="">Contato</a>
-        </div>
-        </div>
-
-    </header>
+        <img class="logo" src="../img/logo.png" alt="Amontadas Boat">
+    <div class="menu-bar">
+        <ul>
+            <li><a class="link-menu-bar" href="../../index.html">Quem Somos</a></li>
+            <li id='localPage'><a  class="link-menu-bar" href="">Produtos</a></li>
+            <li><a class="link-menu-bar" href="">Equipe</a></li>
+            <li><a class="link-menu-bar" href="">Contato</a><img id='iconLocalPage' src="../img/iconLocalPage.png" alt=""></li>
+        </ul>
+        <img id='iconMenuMobile' src="../img/menuMobileIcon.svg" alt="">
+    </div>
+</header>
     <main>
         <!-- Div para as labels do formulário -->
         <div class="div-form">
             <form>
-                    <div class="div-input">
+                    <div class="div-input" id="input1">
                         <label for="name" class="label-input">Nome Completo:</label>
                         <input type="text" name="nome" id="name-forms" placeholder="Nome Completo" class="input-user" required>
                     </div>
 
-                    <div class="div-input">
+                    <div class="div-input" id="input2">
                         <label for="email" class="label-input">Email:</label>
                         <input type="email" name="email" id="email-forms" placeholder="Email" class="input-user" required>
                     </div>
 
-                    <div class="div-input">
+                    <div class="div-input" id="input3">
                         <label for="tel" class="label-input">Celular:</label>
                         <input type="tel" name="tel" id="tel-forms" placeholder="Celular" class="input-user" required>
                     </div>

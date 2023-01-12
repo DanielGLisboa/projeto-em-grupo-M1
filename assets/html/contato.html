@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amontadas Boat</title>
+    <link rel="icon" type="image/x-icon" href="../img/logo-icon.png">
+    <link rel="stylesheet" href="../style/headerFooter.css">
+    <link rel="stylesheet" href="../style/contato.css">
+</head>
+<body>
+    <!-- Menu da página  -->
+    <header>
+        <img class="logo" src="../img/logo.png" alt="Amontadas Boat">
+    <div class="menu-bar">
+        <ul>
+            <li><a class="link-menu-bar" href="../../index.html">Quem Somos</a></li>
+            <li id='localPage'><a class="link-menu-bar" href="">Produtos</a></li>
+            <li><a class="link-menu-bar" href="">Equipe</a></li>
+            <li><a class="link-menu-bar" href="">Contato</a><img id='iconLocalPage' src="../img/iconLocalPage.png" alt=""></li>
+        </ul>
+        <img id='iconMenuMobile' src="../img/menuMobileIcon.svg" alt="">
+    </div>
+</header>
+    <main>
+        <!-- Div para as labels do formulário -->
+        <div class="div-form">
+            <form>
+                    <div class="div-input" >
+                        <label for="name" class="label-input">Digite seu primeiro nome:</label>
+                        <input type="text" name="nome" id="name-forms" placeholder="Nome Completo" class="input-user" required oninput="validaNome()">
+                        <span></span>
+                    </div>
+
+                    <div class="div-input" id="email">
+                        <label for="email" class="label-input">Email:</label>
+                        <input type="email" name="email" id="email-forms" placeholder="Email" class="input-user" required oninput="validaEmail()">
+                        <span></span>
+                    </div>
+
+                    <div class="div-input" id="celular">
+                        <label for="tel" class="label-input">Celular:</label>
+                        <input type="text" name="tel" id="tel-forms" placeholder="(__) _____-____" class="input-user" maxlength="11" required >
+                        <!-- O texto fica de forma dimânica via JS -->
+                        <span></span>
+                    </div>
+
+                    <div class="div-msg" id="mensagem">
+                        <label for="tel" class="label-input">Deixe sua mensagem:</label>
+                        <textarea name="" id=""></textarea>
+                    </div>	
+
+                    <button type="submit" value="" id="enviar" onclick="limpar()"><img class="img-btn-submit" src="../img/barquinho.png" alt=""></button>
+            </form>
+        </div>
+    </main>
+    <footer>
+           <div class="img-footer">
+                <img id="icon-insta" src="../img/Instagram.svg" alt="Instagram">
+                <img id="icon-whats" src="../img/whatsapp.svg" alt="Whatsapp">
+           </div>
+
+            <p id="byFor">Desenvolvido por 2023 TechDev’s</p>
+            <p>+55(11)2345-6789</p>
+    </footer>
+
+    
+
+</body>
+
+<script src="../js/contato.js"></script>
+</html>
+
+
+

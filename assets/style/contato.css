@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@1,200&display=swap');
+/* Body da página */
+body {
+    background: url("../img/fundoContato.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  }
+  
+  /* Field para ajuste do corpo do form */
+  .div-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+    width: 40%;
+    height: 90%;
+    background-color: #c2e0f1c7;
+    border-radius: 2vh;
+  }
+  
+  form {
+    width: 80%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.5vh;
+  }
+  
+  
+  /* Ajuste dos inputs */
+  .div-input {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  
+  input {
+    border: none;
+    border-radius: 2vh;
+    outline: none;
+    height: 4.5vh;
+    font-size: 2.5vh;
+    padding: 10px;
+  }
+  
+  /* Tag para ajuste do botão */
+  button {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    border-radius: 2vh;
+    font-size:2.5vh ;
+    width: 50%;
+    height: 5vh;
+  }
+
+  .img-btn-submit{
+    width: 30%;
+  }
+
+ button:hover img{
+  animation: barquinho 2s infinite;
+  }
+
+
+  @keyframes barquinho{
+    from{
+      opacity: 1;
+    }
+    to{
+      margin-left: 90px;
+      opacity: 0;
+    }
+  }
+  
+  /* Ajuste da text-area */
+  .div-msg {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  textarea {
+    border: none;
+    width: 100%;
+    resize: none;
+    outline: none;
+    height: 15vh;
+    border-radius: 2vh;
+    padding: 10px;
+  }
+
+
+
+/* Responsividade formulário mobile*/
+@media screen and (max-width: 767px) {
+  .div-input{
+    width: 80%;
+  }
+  .div-msg{
+    width: 90%;
+  }
+  .div-form{
+    width: 80%;
+  }
+  form{
+    width: 80%;
+  }
+}
+/* Responsividade formulário tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .div-input{
+    width: 80%;
+  }
+  .div-msg{
+    width: 80%;
+  }
+  .div-form{
+    width: 80%;
+  }
+  form{
+    width: 60%;
+  }
+}
+
+/* Ajuste erro e acerto digitação formulário JS */
+.div-input-error{
+  width:80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.div-input-error .label-input{
+  color: red;
+}
+
+.div-input-set{
+  width:80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.div-input-set span{
+    color:#2e770f;
+}
+
+.div-input-set .label-input{
+   border-color:#2e770f;
+
+}
+
+

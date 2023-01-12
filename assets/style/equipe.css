@@ -60,6 +60,15 @@ main{
 }
 /* responsividade para telas de smartphone */
 @media screen and (max-width: 767px){
+    
+    .buttonNavigation{
+        display: flex;
+        justify-content: center;
+        width: 7.5% !important; 
+    }
+    .buttonNavigation img{
+        width: 35px;
+    }
 
     #profile2{
         display: none;

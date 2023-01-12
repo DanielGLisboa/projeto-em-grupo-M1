@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amontadas Boat</title>
+    <link rel="stylesheet" href="../style/headerFooter.css">
+    <link rel="stylesheet" href="../style/equipe.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="../img/logo.png" alt="Amontadas Boat">
+    <div class="menu-bar">
+        <ul>
+            <li><a class="link-menu-bar" href="../../index.html">Quem Somos</a></li>
+            <li id='localPage'><a  class="link-menu-bar" href="../html/Produtos.html">Produtos</a></li>
+            <!-- icon de barco que indica em qual página o usuário vai estar -->
+            <li><a class="link-menu-bar" href="../html/equipe.html">Equipe</a><img id='iconLocalPage' src="../img/iconLocalPage.png" alt=""></li>
+            <li><a class="link-menu-bar" href="../html/contato.html">Contato</a></li>
+        </ul>
+        <img id='iconMenuMobile' src="../img/menuMobileIcon.svg" alt="">
+    </div>
+</header>
+
+    <main>
+        <div id='left' class="buttonNavigation" ><img src="../img/left.svg" alt=""></div>
+        <div class="squares">
+        <!-- primeira linha contendo as 3 primeiras pessoas da equipe -->
+            <div class="squaresA">
+                <!-- class 'square' é a classe de quadrados da linha individualmente de cada perfil -->
+                <div class= "square" id="profile1">
+                    <img class="imgSquare" src="../img/rosto1.PNG" alt="">
+                    <p class="textSquare">José Diaz</p>
+                    <p class="textSquare">Capitão/Marinheiro com mais de 5 anos de experiência e dedicação exclusiva como profissional náutico.</p>
+                </div> <!-- class square -->
+        
+                <div class= "square" id="profile2">
+                    <img class="imgSquare" src="../img/rosto2.PNG" alt="">
+                    <p class="textSquare">Tadeu Lima</p>
+                    <p class="textSquare">Fundou a empresa. Marinheiro com mais de 9 anos de experiência e dedicação exclusiva como profissional náutico.</p>
+                </div> <!-- class square -->
+        
+                <div class= "square" id="profile3">
+                    <img class="imgSquare" src="../img/rosto3.PNG" alt="">
+                    <p class="textSquare">Sandra Maria</p>
+                    <p class="textSquare">Capitão/Marinheiro + de 3 anos de experiência e dedicação exclusiva como profissional náutico</p>
+                </div> <!-- class square -->
+            </div> <!-- class squaresA -->
+            <!-- segunda linha contendo as 3 últimas pessoas da equipe -->
+            <div class="squaresB">
+        
+                <div class= "square" id="profile4">
+                    <img class="imgSquare" src="../img/rosto4.PNG" alt="">
+                    <p class="textSquare">Vanessa Lima</p>
+                    <p class="textSquare">Mergulhadora com mais de 8 anos de experiência na área de mergulho recreativo para iniciantes.</p>
+                </div> <!-- class square -->
+
+                <div class= "square" id="profile5">
+                    <img class="imgSquare" src="../img/rosto5.PNG" alt="">
+                    <p class="textSquare">Maurício Santos</p>
+                    <p class="textSquare">Guia turístico e especialista nas praias mais bonitas do litoral oeste cearense</p>
+                </div> <!-- class square -->
+        
+                <div  class= "square" id="profile6">
+                    <img class="imgSquare" src="../img/rosto6.PNG" alt="">
+                    <p class="textSquare">Roberto Costa</p>
+                    <p class="textSquare">Possui mais de 10 anos de experiência como mergulhador na área.</p>
+                </div> <!-- class square -->
+            </div> <!-- class squaresB -->
+        </div>
+        <div id='rigth' class="buttonNavigation" onclick="botaoDireito()" ><img src="../img/rigth.svg" alt=""></div>
+    </main>
+
+    <footer>
+        <div class="img-footer">
+             <a href="https://www.instagram.com/"><img id="icon-insta" src="../img/Instagram.svg" alt="Instagram"></a>
+             <a href="https://web.whatsapp.com/"><img id="icon-whats" src="../img/whatsapp.svg" alt="Whatsapp"></a>
+        </div>
+
+         <p id="byFor">Desenvolvido por 2023 TechDev’s</p>
+         <p id="numberContact">+55(11)2345-6789</p>
+ </footer>
+ <script src="../js/equipe.js"></script>
+</body>
+</html>

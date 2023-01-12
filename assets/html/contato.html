@@ -16,7 +16,7 @@
     <div class="menu-bar">
         <ul>
             <li><a class="link-menu-bar" href="../../index.html">Quem Somos</a></li>
-            <li id='localPage'><a  class="link-menu-bar" href="">Produtos</a></li>
+            <li id='localPage'><a class="link-menu-bar" href="">Produtos</a></li>
             <li><a class="link-menu-bar" href="">Equipe</a></li>
             <li><a class="link-menu-bar" href="">Contato</a><img id='iconLocalPage' src="../img/iconLocalPage.png" alt=""></li>
         </ul>
@@ -27,27 +27,31 @@
         <!-- Div para as labels do formulário -->
         <div class="div-form">
             <form>
-                    <div class="div-input" id="input1">
-                        <label for="name" class="label-input">Nome Completo:</label>
-                        <input type="text" name="nome" id="name-forms" placeholder="Nome Completo" class="input-user" required>
+                    <div class="div-input" >
+                        <label for="name" class="label-input">Digite seu primeiro nome:</label>
+                        <input type="text" name="nome" id="name-forms" placeholder="Nome Completo" class="input-user" required oninput="validaNome()">
+                        <span></span>
                     </div>
 
-                    <div class="div-input" id="input2">
+                    <div class="div-input" id="email">
                         <label for="email" class="label-input">Email:</label>
-                        <input type="email" name="email" id="email-forms" placeholder="Email" class="input-user" required>
+                        <input type="email" name="email" id="email-forms" placeholder="Email" class="input-user" required oninput="validaEmail()">
+                        <span></span>
                     </div>
 
-                    <div class="div-input" id="input3">
+                    <div class="div-input" id="celular">
                         <label for="tel" class="label-input">Celular:</label>
-                        <input type="tel" name="tel" id="tel-forms" placeholder="Celular" class="input-user" required>
+                        <input type="text" name="tel" id="tel-forms" placeholder="(__) _____-____" class="input-user" maxlength="11" required >
+                        <!-- O texto fica de forma dimânica via JS -->
+                        <span></span>
                     </div>
 
-                    <div class="div-msg">
+                    <div class="div-msg" id="mensagem">
                         <label for="tel" class="label-input">Deixe sua mensagem:</label>
                         <textarea name="" id=""></textarea>
                     </div>	
 
-                    <button type="submit" value=""><img class="img-btn-submit" src="../img/barquinho.png" alt=""></button>
+                    <button type="submit" value="" id="enviar" onclick="limpar()"><img class="img-btn-submit" src="../img/barquinho.png" alt=""></button>
             </form>
         </div>
     </main>
@@ -64,6 +68,8 @@
     
 
 </body>
+
+<script src="../js/contato.js"></script>
 </html>
 
 

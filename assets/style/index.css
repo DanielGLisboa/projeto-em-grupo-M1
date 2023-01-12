@@ -1,88 +1,118 @@
-.img-home{
-    width: 20vh;
-    height: 20vh;
-    border-radius: 4%;
-}
-.container-home{
+main{
     display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
+    height: 72%;
 }
 .content-home{
     display: flex;
-    justify-content: space-around;
-    width: 80%;
-    height: 20vh;
-    z-index: 1;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70%;
 }
-.container-history-home{
+.buttonNavigation{
     display: flex;
     justify-content: center;
-}
-.content-history-home{
-    display: flex;
-    flex-direction: column;
-    padding-top: 5vh;
-    background-color: #c2e0f1c7;
-    width: 80%;
-    height: 50vh;    
-    border-radius: 10px;
-}
-.history{
-    text-align: center;
-    padding: 5px;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    text-align: justify;
-}
-.imgButton{
     display: none;
 }
-#text1, #text2, #text3{
+.content1, .content2, .content3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 90%;
+    border-radius: 20px;
+    background: #c2e0f1c7;
+
+}
+.img-home{
+    align-self: center;
+    margin-top: -10%;
+    width: 50%;
+    height: 65%;
+    border-radius: 10px;
+}
+.text-home{
+    font-size: 100%;
+    text-align: justify;
     padding: 10px;
+}
+p{
+    height: 70%;
 }
 
 
 @media screen and (max-width: 767px){
-    .content-history-home{
-        width: 80%;
-        height: 55vh;
+    main{
+        height: 73%;
     }
-    .imgButton{
+    .content-home{
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 65%;
+    }
+    .content1, .content2, .content3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 80%;
+        height: 100%;
+        border-radius: 20px;
+        background: #c2e0f1c7;
+    }
+    .buttonNavigation{
+        display: flex;
         align-items: center;
-        width: 5%;
-        height: 55vh;
-        margin: 5px;
+        width: 10%;
     }
-    #buttonRight, #buttonLeft{
-        width: 35px;
-        height: 35px;
-    }
-    #veleiro{
+    .img-home{ 
+        align-self: center;
+        width: 50%;
+        height: 40%;
+        margin-top: -30%;
+        border-radius: 10px;
+    }  
+    .content2, .content3{
         display: none;
     }
-    #jetSki{
-        display: none;
+    .text-home{
+        font-size: 120%;
     }
-    #text2 {
-        display: none;
+    p{
+        height: 85%;
     }
-    #text3{
-        display: none;
-    }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
-    .img-home{
+    main{
+        height: 74%;
+    }
+    .content-home{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 65%;
+    }
+    .content1, .content2, .content3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
         width: 30%;
-        height: 90%;
+        height: 100%;
+        border-radius: 20px;
+        background: #c2e0f1c7;
     }
-    .content-history-home{
-        width: 80%;
-        height: 58vh;
-    }
+    .img-home{ 
+        align-self: center;
+        width: 65%;
+        height: 30%;
+        margin-top: -50%;
+        border-radius: 10px;
+    } 
+    .text-home{
+        font-size: 110%;
+    } 
+
 }

@@ -1,12 +1,5 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Sofia+Sans+Extra+Condensed&display=swap');
 
-=======
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-=======
->>>>>>> 5a0fba26a37a7193390e1f5a2795e7cc52e1ba6c
->>>>>>> a453db1aa71f9b350ea4c19412049b1e7003902a
 *{
     margin: 0;
     padding: 0;
@@ -27,21 +20,12 @@ body {
 /* //////////////////////// Cabeçalho //////////////////// */
 /* Atribuindo proprieades da div que contém o cabeçalho */
 
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 5a0fba26a37a7193390e1f5a2795e7cc52e1ba6c
 header{
     display: flex;
     width: 100%;
     height: 20%;
     justify-content: space-evenly;
     align-items: center;
-<<<<<<< HEAD
-    font-family: 'Indie Flower', cursive;
-=======
->>>>>>> 5a0fba26a37a7193390e1f5a2795e7cc52e1ba6c
 }
 
 #iconMenuMobile{
@@ -90,9 +74,6 @@ header{
     color: #001E30;
     font-size: 2.3vw;
 }
-.menuMobile{
-    display: none;
-}
 /*///////////////////////// Main /////////////////////////*/
 main{
     width: 100%;
@@ -128,38 +109,16 @@ footer{
 }
 
 
-<<<<<<< HEAD
-@media screen and (max-width: 1024px){
-=======
-@media (min-width: 768px) and (max-width: 1024px){
->>>>>>> a453db1aa71f9b350ea4c19412049b1e7003902a
+@media screen and (min-width: 768px) and (max-width: 1024px){
 
     header{
-        display: flex;
-        width: 100%;
-        justify-content: space-around;
+        padding: 0 5rem 0 2rem;
+        justify-content: space-between;
     }
-    .menuMobile{
-        width: 20%;
-        height: 10.5vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #c2e0f1c7;
-        border-radius: 10px;
-    }
-    
-    .iconMenuBar{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 80%;
-        transition: 0.3;
-    }
-    .menu-bar{
+
+    .menu-bar ul{
         display: none;
     }
-<<<<<<< HEAD
 
     .menu-bar ul{
         display: none;
@@ -181,13 +140,10 @@ footer{
         width: 10%;
     }
 
-=======
->>>>>>> a453db1aa71f9b350ea4c19412049b1e7003902a
     #iconMenuMobile{
         display: flex;
     }
 
-<<<<<<< HEAD
     .menu-bar{
         flex-direction: column-reverse;
         display: flex;
@@ -201,20 +157,18 @@ footer{
         width: 10%;
     }
 
-=======
->>>>>>> a453db1aa71f9b350ea4c19412049b1e7003902a
 }
 
 
 @media screen and (max-width: 767px){
     header{
-<<<<<<< HEAD
         padding: 0 2.5rem 0 2rem;
         justify-content: space-between;
         
     }
 
     #iconMenuMobile{
+        display: flex;
         justify-self: end;
         width: 25%
     }
@@ -243,35 +197,8 @@ footer{
         flex-direction: column-reverse;
         display: flex;
         width: 20%;
-=======
-        display: flex;
-        width: 100%;
-        justify-content: space-around;
-    }
-    .menuMobile{
-        width: 30%;
-        height: 12.5vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #c2e0f1c7;
-        border-radius: 10px;
-    }
-    
-    .iconMenuBar{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 80%;
-    }
-    #iconBar{
-        width: 50%;
     }
 
-    .menu-bar{
-        display: none;
->>>>>>> a453db1aa71f9b350ea4c19412049b1e7003902a
-    }
     #byFor{
         font-size: 1.5vh;
     }

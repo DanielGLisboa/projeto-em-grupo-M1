@@ -68,21 +68,7 @@ body {
   .img-btn-submit{
     width: 30%;
   }
-
- button:hover img{
-  animation: barquinho 2s infinite;
-  }
-
-
-  @keyframes barquinho{
-    from{
-      opacity: 1;
-    }
-    to{
-      margin-left: 90px;
-      opacity: 0;
-    }
-  }
+  
   
   /* Ajuste da text-area */
   .div-msg {

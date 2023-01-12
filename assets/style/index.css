@@ -2,8 +2,9 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 72%;
+    height: 75%;
 }
+
 .content-home{
     display: flex;
     justify-content: space-evenly;
@@ -44,7 +45,7 @@ p{
 
 @media screen and (max-width: 767px){
     main{
-        height: 73%;
+        height: 75%;
     }
     .content-home{
         display: flex;
@@ -87,7 +88,7 @@ p{
 
 @media (min-width: 768px) and (max-width: 1024px){
     main{
-        height: 74%;
+        height: 75%;
     }
     .content-home{
         display: flex;

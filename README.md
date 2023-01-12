@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Tecnologias:
 
 HTML, CSS e JavaScript
@@ -22,7 +21,3 @@ Optamos por dividir a página com intuito de melhor visualização em 3 divisõe
 
 Produtos:
 Utilizamos 2 seções para este arquivo, tendo uma melhor interação com os produtos, vendo que
-=======
-
-
->>>>>>> a453db1aa71f9b350ea4c19412049b1e7003902a

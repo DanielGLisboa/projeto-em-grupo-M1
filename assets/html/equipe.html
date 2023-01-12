@@ -9,19 +9,18 @@
     <link rel="stylesheet" href="../style/equipe.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <img class="logo" src="../img/logo.png" alt="Amontadas Boat">
-    <div class="menu-bar">
-        <ul>
-            <li><a class="link-menu-bar" href="../../index.html">Quem Somos</a></li>
-            <li id='localPage'><a  class="link-menu-bar" href="../html/Produtos.html">Produtos</a></li>
-            <!-- icon de barco que indica em qual página o usuário vai estar -->
-            <li><a class="link-menu-bar" href="../html/equipe.html">Equipe</a><img id='iconLocalPage' src="../img/iconLocalPage.png" alt=""></li>
-            <li><a class="link-menu-bar" href="../html/contato.html">Contato</a></li>
-        </ul>
-        <img id='iconMenuMobile' src="../img/menuMobileIcon.svg" alt="">
-    </div>
-</header>
+        <div class="menu-bar">
+            <ul id="links">
+                <li><a class="link-menu-bar" href="../../index.html">Quem Somos</a></li>
+                <li><a class="link-menu-bar" href="Produtos.html">Produtos</a></li>
+                <li id='localPage'><a  class="link-menu-bar" href="">Esquipe</a><img id='iconLocalPage' src="../img/iconLocalPage.png" alt=""></li>
+                <li><a class="link-menu-bar" href="contato.html">Contato</a></li>
+            </ul>
+            <img onclick="exibeMenu()" id='iconMenuMobile' src="../img/menuMobileIcon.svg" alt="">
+        </div>
+    </header>
 
     <main>
         <div id='left' class="buttonNavigation" ><img src="../img/left.svg" alt=""></div>
@@ -71,16 +70,16 @@
         </div>
         <div id='rigth' class="buttonNavigation" onclick="botaoDireito()" ><img src="../img/rigth.svg" alt=""></div>
     </main>
-
     <footer>
         <div class="img-footer">
-             <a href="https://www.instagram.com/"><img id="icon-insta" src="../img/Instagram.svg" alt="Instagram"></a>
-             <a href="https://web.whatsapp.com/"><img id="icon-whats" src="../img/whatsapp.svg" alt="Whatsapp"></a>
+             <a href="https://www.instagram.com/" target="_blank"><img id="icon-insta" src="../img/Instagram.svg" alt="Instagram"></a>
+             <a href="https://www.whatsapp.com/" target="_blank"><img id="icon-whats" src="../img/whatsapp.svg" alt="Whatsapp"></a>
         </div>
 
          <p id="byFor">Desenvolvido por 2023 TechDev’s</p>
          <p id="numberContact">+55(11)2345-6789</p>
  </footer>
  <script src="../js/equipe.js"></script>
+ <script src="../js/header.js"></script>
 </body>
 </html>

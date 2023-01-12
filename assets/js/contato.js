@@ -28,8 +28,13 @@ function validaEmail(){
 }
 
 function limpar(){
+    if(email.value.length == '' || nome.value.length == ''){
+        alert('Os campos nome e email são obrigatórios')
+    }
+    else{
     alert('Dados enviados com sucesso')
     document.location.reload(true)
+    }
 }
 
 function msgErro(saida, msg){

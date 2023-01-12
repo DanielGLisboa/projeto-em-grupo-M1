@@ -1,29 +1,46 @@
 body{
-    background-image: url(../img/equipefundo.png);
+    background-image: url('../img/equipefundo.png');
 }
 main{
     display: flex;
+    justify-content: center;
+}
+
+.buttonNavigation{
+    justify-content: center;
+    display: none;
+}
+
+.buttonNavigation img{
+    width: 30px;
+}
+
+.squares{
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    height: 100%;
+    width: 80%;
 }
+
 /* estilo da linha de quadrados A e B do main*/
 .squaresA {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .squaresB{
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 /* estilo de cada perfil de funcionário da equipe*/
 .square{
     display: flex;
     flex-direction: column;
     text-align: justify;
-    width:20%;
+    width:25%;
     height:35vh;
     border-radius: 2vh;
     background-color: #c2e0f1c7;
@@ -60,13 +77,26 @@ main{
         display: none;
     }
 
+    .squares{
+        justify-content: space-evenly;
+    }
+
     .square{
-        width: 80%;
+        width: 100%;
     }
     
 }
 /* responsividade para telas de tablet */
 @media (min-width: 768px) and (max-width: 1024px){
+
+    .buttonNavigation{
+        display: flex;
+        justify-content: center;
+        width: 7.5% !important; 
+    }
+    .buttonNavigation img{
+        width: 35px;
+    }
 
     #profile3{
         display: none;
@@ -76,8 +106,11 @@ main{
         display: none;
     }
 
+    .squares{
+        width: 85%;
+    }
     .square{
-    width: 40%;
+    width: 47%;
     }
 
 }

@@ -1,0 +1,118 @@
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72%;
+}
+.content-home{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70%;
+}
+.buttonNavigation{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+.content1, .content2, .content3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 90%;
+    border-radius: 20px;
+    background: #c2e0f1c7;
+
+}
+.img-home{
+    align-self: center;
+    margin-top: -10%;
+    width: 50%;
+    height: 65%;
+    border-radius: 10px;
+}
+.text-home{
+    font-size: 100%;
+    text-align: justify;
+    padding: 10px;
+}
+p{
+    height: 70%;
+}
+
+
+@media screen and (max-width: 767px){
+    main{
+        height: 73%;
+    }
+    .content-home{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 65%;
+    }
+    .content1, .content2, .content3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 80%;
+        height: 100%;
+        border-radius: 20px;
+        background: #c2e0f1c7;
+    }
+    .buttonNavigation{
+        display: flex;
+        align-items: center;
+        width: 10%;
+    }
+    .img-home{ 
+        align-self: center;
+        width: 50%;
+        height: 40%;
+        margin-top: -30%;
+        border-radius: 10px;
+    }  
+    .content2, .content3{
+        display: none;
+    }
+    .text-home{
+        font-size: 120%;
+    }
+    p{
+        height: 85%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    main{
+        height: 74%;
+    }
+    .content-home{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 65%;
+    }
+    .content1, .content2, .content3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 30%;
+        height: 100%;
+        border-radius: 20px;
+        background: #c2e0f1c7;
+    }
+    .img-home{ 
+        align-self: center;
+        width: 65%;
+        height: 30%;
+        margin-top: -50%;
+        border-radius: 10px;
+    } 
+    .text-home{
+        font-size: 110%;
+    } 
+
+}

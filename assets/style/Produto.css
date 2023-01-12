@@ -1,0 +1,234 @@
+/* //////////////////////////// Gerais /////////////////////////////// */
+body{
+    background-image: url('../img/Produtos.png');
+}
+
+/* ////////////////////////////// Seção de Barcos ///////////////////////////////////////////////////// */
+#secBoats{
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    height: 60%;
+    justify-content: space-between;
+}
+
+.buttonNavigation{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.buttonNavigation img{
+    width: 30px;
+}
+
+.imgBoat{
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+
+.boat{
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+    border-radius: 2vh;
+    background-color: #c2e0f1c7;
+}
+
+.divImgBoat{
+    display: flex;
+    justify-content: center;
+    border-radius: 2vh;
+    width: 85%;
+    height: 60%;
+}
+
+.planoBoat{
+    display: flex;
+    flex-direction: column;
+    /* border: solid; */
+    width: 70%;
+    height: 30%;
+    font-size: 2vh;
+    line-height: 150%;
+}
+
+
+
+/* ////////////////////////////////// Seção de Mergulho /////////////////////////////////////////////// */
+#secMergulho{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 40%;
+    
+}
+
+.mergulho{
+    display: flex;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 95%;
+    border-radius: 2vh;
+    background-color: #c2e0f1c7;
+}
+
+.divImgMergulho{
+    width: 25%;
+    height: 90%;
+}
+
+.planoMergulho{
+    width: 35%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5vh;
+    line-height: 130%;
+    
+}
+
+.imgMergulho{
+    border-radius: 2vh;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 1550px){
+    .menu-bar ul li{
+        font-size: 2vh;
+    }
+    .boat{
+    transition: 0.5s;
+    width: 20%;
+    }
+
+    .planoBoat{
+        font-size: 2vh;
+    }
+
+    .planoMergulho{
+        font-size: 2vh;
+    }
+
+}
+
+
+
+@media screen and (max-width: 850px){
+    .buttonNavigation{
+        display: flex;
+        align-items: center;
+        width: 10%;
+    }
+
+    .boat{
+    transition: 0.5s;
+    width: 37%;
+    }
+
+   
+    .planoBoat{
+        font-size: 2vh;
+    }
+
+    #jetSki{
+        display: none;
+    }
+    
+    #secBoats{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #secMergulho{
+        width: 75%;
+        justify-content: center;
+    }
+
+    .planoMergulho{
+        width: 45%;
+    }
+
+    .divImgMergulho{
+        width: 50%;
+    }
+    
+
+    #imgMergulho2{
+        display: none;
+    }
+    
+}
+
+    @media screen and (max-width: 450px){
+        .buttonNavigation img{
+            width: 15px;
+        }
+
+        .boat{
+        transition: 0.5s;
+        width: 80%;
+        }
+    
+        .planoBoat{
+            font-size: 2vh;
+        }
+    
+        #jetSki, #veleiro{
+            display: none;
+        }
+
+        
+        #secBoats{
+            justify-content: space-evenly;
+            width: 95%;
+        }
+
+        .boat{
+            width: 100%;
+        }
+
+        .imgBoat{
+            border-radius: 5%;
+            width: 90%;
+            height: 100%;
+        }
+
+        #secMergulho{
+            width: 80%;
+        }
+        .planoMergulho{
+            font-size: 1.5vh;
+        }
+
+        #byFor{
+            font-size: 1.5vh;
+        }
+        #numberContact{
+            font-size: 1.5vh;
+        }
+        #icon-insta{
+            height: 4vh;
+        }
+        #icon-whats{
+            
+            height: 4.5vh;
+        }
+        .img-footer{
+            padding-top: 0.2rem;
+            display: flex;
+            align-items: center;
+            width: 15vw;
+        }
+    }

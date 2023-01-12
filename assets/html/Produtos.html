@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amontadas Boat</title>
+    <link rel="stylesheet" href="../style/headerFooter.css">
+    <link rel="stylesheet" href="../style/produto.css">
+</head>
+<body>
+    <header id="header">
+            <img class="logo" src="../img/logo.png" alt="Amontadas Boat">
+        <div class="menu-bar">
+            <ul id="links">
+                <li><a class="link-menu-bar" href="">Quem Somos</a></li>
+                <li id='localPage'><a  class="link-menu-bar" href="">Produtos</a><img id='iconLocalPage' src="../img/iconLocalPage.png" alt=""></li>
+                <li><a class="link-menu-bar" href="">Equipe</a></li>
+                <li><a class="link-menu-bar" href="">Contato</a></li>
+            </ul>
+            <img onclick="exibeMenu()" id='iconMenuMobile' src="../img/menuMobileIcon.svg" alt="">
+        </div>
+    </header>
+    <main id="main">
+        <section id="secBoats">
+            <div id="left" class="buttonNavigation" onclick="botaoEsquerdo()"><img  src="../img/left.svg"></div>
+            <div id='lancha' class="boat">
+                
+                <div class="divImgBoat">
+                    <img class='imgBoat' src="../img/lanchaProduto.jpg" alt="Lancha Branca">
+                </div>
+                <div class="planoBoat">
+                    <h4>Lancha:</h4>
+                    <p>Capacidade: 9 pessoas</p>
+                    <p>Aluguel: R$ 1.900,00</p>
+                </div>
+            </div>
+            <div id='veleiro' class="boat">
+                <div class="divImgBoat">
+                    <img class='imgBoat'  src="../img/veleiroProduto.png" alt="Veleiro no pôr do sol">
+                </div>
+                <div class="planoBoat">
+                    <h4>Veleiro:</h4>
+                    <p>Capacidade: 6 pessoas</p>
+                    <p>Aluguel: R$ 1.300,00</p>
+                </div>
+            </div>
+            <div id='jetSki' class="boat">
+                <div class="divImgBoat">
+                    <img class='imgBoat'  src="../img/jetSkiProduto.png" alt="Jet Ski preto com amarelho na àgua">
+                </div>
+                <div  class="planoBoat">
+                    <h4>jet-Ski:</h4>
+                    <p>Capacidade: 2 pessoas</p>
+                    <p>Aluguel: R$ 500,00</p>
+                </div>
+            </div>
+            <div id="rigth" class="buttonNavigation"><img src="../img/rigth.svg" alt=""></div>
+        </section>
+
+        <section id="secMergulho">
+            <div class="mergulho">
+                <div id="imgMergulho1" class="divImgMergulho">
+                    <img class='imgMergulho' src="../img/mergulho1Produto.png" alt="Mergulhador com tartaruga">
+                </div>
+                <div class="planoMergulho">
+                    <h4>Passeios:</h4>
+                    <ul>
+                        <li>Encontro do Rio com o Mar em Moitas</li>
+                        <li>Túnel do Mangue do Rio Aracatiaçu</li>
+                        <li>Barraca ilha das Ostras</li>
+                        <li>Parada Para Banho Porto de Areia</li>
+                        <li>Pôr do sol em Icaraizinho de Amontada</li>
+                    </ul>
+                </div>
+                <div id='imgMergulho2' class="divImgMergulho">
+                    <img class='imgMergulho' src="../img/mergulho2Produto.png" alt="Dois Mergulhadores">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+           <div class="img-footer">
+                <a><img id="icon-insta" src="../img/Instagram.svg" alt="Instagram"></a>
+                <a><img id="icon-whats" src="../img/whatsapp.svg" alt="Whatsapp"></a>
+           </div>
+
+            <p id="byFor">Desenvolvido por 2023 TechDev’s</p>
+            <p id="numberContact">+55(11)2345-6789</p>
+    </footer>
+    <script src="../js/header.js" ></script>
+    <script src="../js/produto.js"></script>
+</body>
+</html>

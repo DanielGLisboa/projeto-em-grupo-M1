@@ -6,7 +6,8 @@ main{
     flex-direction: column;
     justify-content: space-evenly;
 }
-.squaresA{
+/* estilo da linha de quadrados A e B do main*/
+.squaresA {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -17,7 +18,7 @@ main{
     display: flex;
     justify-content: space-evenly;
 }
-
+/* estilo de cada perfil de funcionário da equipe*/
 .square{
     display: flex;
     flex-direction: column;
@@ -28,7 +29,7 @@ main{
     background-color: #c2e0f1c7;
    
 }
-
+/* estilo do texto de cada perfil */
 .square p{
     font-size: 2.5vh;
     margin: 2%;
@@ -40,3 +41,44 @@ main{
     border-radius: 2vh;
     margin: 2%;
 }
+/* responsividade para telas de smartphone */
+@media screen and (max-width: 767px){
+
+    #profile2{
+        display: none;
+    }
+
+    #profile3{
+        display: none;
+    }
+
+    #profile5{
+        display: none;
+    }
+
+    #profile6{
+        display: none;
+    }
+
+    .square{
+        width: 80%;
+    }
+    
+}
+/* responsividade para telas de tablet */
+@media (min-width: 768px) and (max-width: 1024px){
+
+    #profile3{
+        display: none;
+    }
+
+    #profile6{
+        display: none;
+    }
+
+    .square{
+    width: 40%;
+    }
+
+}
+

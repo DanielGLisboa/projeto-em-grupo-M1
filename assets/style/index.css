@@ -63,6 +63,7 @@ main{
     .buttonNavigation{
         display: flex;
         align-items: center;
+        justify-content: center;
         width: 10%;
     }
     .img-home{ 

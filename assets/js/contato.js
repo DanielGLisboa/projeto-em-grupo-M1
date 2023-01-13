@@ -27,6 +27,7 @@ function validaEmail(){
     
 }
 
+// Função esponsavel por limpar os campos após precionar botão enviar
 function limpar(){
     if(email.value.length == '' || nome.value.length == ''){
         alert('Os campos nome e email são obrigatórios')
@@ -37,6 +38,7 @@ function limpar(){
     }
 }
 
+// função responsavel por exibir mensagem de erro
 function msgErro(saida, msg){
     const control = saida.parentElement
     control.className = 'div-input-error'
@@ -45,6 +47,7 @@ function msgErro(saida, msg){
     text.innerHTML = msg
 }
 
+// função responsavel por exibir mensagem de envio realizado com sucesso
 function msgAcerto(saida,msg){
     const control = saida.parentElement
     control.className = 'div-input-set'

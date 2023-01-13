@@ -4,9 +4,10 @@ var jetSki = document.querySelector('#jetSki')
 var left = document.querySelector('#left')
 var rigth = document.querySelector('#rigth')
 
-
+// Iniciando botão esquerdo inativo
 left.onclick = ''
 
+// Alteração de funcionabilidade do botão direito
 rigth.onclick = function(){
     var idRigth = this.id
     this.id = 'rigth2'
@@ -14,6 +15,7 @@ rigth.onclick = function(){
 
 }
 
+// Funcionabilidade primaria do botão esquerdo
 function botaoEsquerdo(){
         if(matchMedia("(max-width: 450px)").matches){
             lancha.style.display = 'none'
@@ -24,6 +26,7 @@ function botaoEsquerdo(){
         }
 }
 
+// Funcionabilidade secundaria do botão esquerdo
 function botaoEsquerdo2(){
     
     if(matchMedia("(max-width: 450px)").matches){
@@ -31,8 +34,9 @@ function botaoEsquerdo2(){
     }
 }
 
+// Funcionabilidade primaria do botão direito
 function botaoDireito(){
-
+// Iniciando  e realizando alteração de funcionabilidade do botão direito
     left.onclick = function(){
         var idOriginal = this.id
         this.id = 'left2'
@@ -51,6 +55,7 @@ function botaoDireito(){
         }
 }
 
+// Funcionabilidade secundaria do botão direito
 function botaoDireito2(){
     if(matchMedia("(max-width: 450px)").matches){
     lancha.style.display = 'none'

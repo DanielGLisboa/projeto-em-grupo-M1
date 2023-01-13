@@ -7,9 +7,10 @@ var profile6 = document.querySelector('#profile6')
 var left = document.querySelector('#left')
 var rigth = document.querySelector('#rigth')
 
-
+// Iniciando botão esquerdo inativo
 left.onclick = ''
 
+// Alteração de funcionabilidade do botão direito
 rigth.onclick = function(){
     var idRigth = this.id
     this.id = 'rigth2'
@@ -17,8 +18,8 @@ rigth.onclick = function(){
 
 }
 
+// Funcionabilidade primaria do botão esquerdo
 function botaoEsquerdo(){
-
 
         if(matchMedia("(max-width: 767px)").matches){
             if(profile2.style.display == 'flex' && profile5.style.display == 'flex'){
@@ -39,10 +40,12 @@ function botaoEsquerdo(){
         }
 }
 
+// Funcionabilidade secundaria do botão esquerdo
 function botaoEsquerdo2(){
     document.location.reload(true);
 }
 
+// Funcionabilidade primaria do botão direito
 function botaoDireito(){
     left.onclick = function(){
         var idOriginal = this.id
@@ -65,8 +68,8 @@ function botaoDireito(){
         }
 }
 
+// Funcionabilidade secundariaria do botão direito
 function botaoDireito2(){
-
    
     if(matchMedia("(max-width: 767px)").matches){
         profile3.style.display = 'flex'

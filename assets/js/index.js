@@ -12,9 +12,10 @@ var menu = document.querySelector(".menu-bar")
 var icon = document.querySelector('#iconMenuMobile')
 var links = document.querySelector("#links")
 
-
+// Iniciando botão esquerdo inativo
 left.onclick = ''
 
+// Alteração de funcionabilidade do botão direito
 rigth.onclick = function(){
     var idRigth = this.id
     this.id = 'rigth2'
@@ -22,6 +23,7 @@ rigth.onclick = function(){
 
 }
 
+// Funcionabilidade primaria do botão esquerdo
 function botaoEsquerdo(){
 
     left.onclick = function(){
@@ -39,10 +41,12 @@ function botaoEsquerdo(){
             }
 }
 
+// Funcionabilidade secundaria do botão esquerdo
 function botaoEsquerdo2(){
     document.location.reload(true);
 }
 
+// Funcionabilidade primaria do botão direito
 function botaoDireito(){
 
     left.onclick = function(){
@@ -56,14 +60,14 @@ function botaoDireito(){
       
 }
 
+// Funcionabilidade secundaria do botão direito
 function botaoDireito2(){
     content1.style.display = 'none'
     content2.style.display = 'none'
     content3.style.display = 'flex'
 }
 
-
-
+// Função responsavel por exibir e ocultar menu mobile
 function exibeMenu(){
 
     if(menu.style.position != 'absolute'){

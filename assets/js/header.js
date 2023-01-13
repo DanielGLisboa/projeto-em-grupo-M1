@@ -5,8 +5,8 @@ var menu = document.querySelector(".menu-bar")
 var icon = document.querySelector('#iconMenuMobile')
 var links = document.querySelector("#links")
 
+// Função responsavel por exibir e ocultar menu mobile
 function exibeMenu(){
-
     if(menu.style.position != 'absolute'){
 
         menu.style.position = 'absolute'

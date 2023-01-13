@@ -58,7 +58,7 @@ main{
     border-radius: 2vh;
     margin: 2%;
 }
-/* responsividade para telas de smartphone */
+/* Exibição em modo Celular */
 @media screen and (max-width: 767px){
     
     .buttonNavigation{
@@ -95,7 +95,7 @@ main{
     }
     
 }
-/* responsividade para telas de tablet */
+/* Exibição em modo Tablet */
 @media (min-width: 768px) and (max-width: 1024px){
 
     .buttonNavigation{

@@ -1,6 +1,6 @@
 var header = document.querySelector("#header")
 var logo = document.querySelector('.logo')
-var main = document.querySelector('#main')
+var main = document.querySelector('main')
 var menu = document.querySelector(".menu-bar")
 var icon = document.querySelector('#iconMenuMobile')
 var links = document.querySelector("#links")
@@ -13,7 +13,7 @@ function exibeMenu(){
         main.style.display = 'none'
         menu.style.height = '50%'
         menu.style.width = '70%'
-        header.style.marginTop = '20px'
+        header.style.paddingTop = '20px'
         
         logo.style.display = 'none'
 
@@ -32,9 +32,9 @@ function exibeMenu(){
         main.style.display = ''
         menu.style.height = ''
         menu.style.width = ''
+        header.style.paddingTop = ''
 
         icon.src = '../img/menuMobileIcon.svg'
-
         logo.style.display = ''
 
         header.style.height = ''

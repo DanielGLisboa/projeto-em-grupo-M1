@@ -12,8 +12,6 @@ main{
     height: 70%;
 }
 .buttonNavigation{
-    display: flex;
-    justify-content: center;
     display: none;
 }
 .content1, .content2, .content3{
@@ -38,7 +36,7 @@ main{
     text-align: justify;
     padding: 10px;
 }
-p{
+.content-home p{
     height: 70%;
 }
 
@@ -89,6 +87,10 @@ p{
 @media (min-width: 768px) and (max-width: 1024px){
     main{
         height: 75%;
+    }
+
+    .buttonNavigation{
+        display: none !important;
     }
     .content-home{
         display: flex;

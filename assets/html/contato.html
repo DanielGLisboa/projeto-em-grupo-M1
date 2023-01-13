@@ -11,25 +11,25 @@
 </head>
 <body>
     <!-- Menu da página  -->
-    <header>
-        <img class="logo" src="../img/logo.png" alt="Amontadas Boat">
-    <div class="menu-bar">
-        <ul>
-            <li><a class="link-menu-bar" href="../../index.html">Quem Somos</a></li>
-            <li id='localPage'><a class="link-menu-bar" href="Produtos.html">Produtos</a></li>
-            <li><a class="link-menu-bar" href="equipe.html">Equipe</a></li>
-            <li><a class="link-menu-bar" href="">Contato</a><img id='iconLocalPage' src="../img/iconLocalPage.png" alt=""></li>
-        </ul>
-        <img id='iconMenuMobile' src="../img/menuMobileIcon.svg" alt="">
-    </div>
-</header>
+    <header id="header">
+        <img id='logo' class="logo" src="../img/logo.png" alt="Amontadas Boat">
+        <div class="menu-bar">
+            <ul id="links">
+                <li><a class="link-menu-bar" href="../../index.html">Quem Somos</a></li>
+                <li><a class="link-menu-bar" href="Produtos.html">Produtos</a></li>
+                <li><a class="link-menu-bar" href="equipe.html">Equipe</a></li>
+                <li id='localPage'><a  class="link-menu-bar" href="">Contato</a><img id='iconLocalPage' src="../img/iconLocalPage.png" alt=""></li>
+            </ul>
+            <img onclick="exibeMenu()" id='iconMenuMobile' src="../img/menuMobileIcon.svg" alt="">
+        </div>
+    </header>
     <main>
         <!-- Div para as labels do formulário -->
         <div class="div-form">
             <form>
                     <div class="div-input" >
                         <label for="name" class="label-input">Digite seu primeiro nome:</label>
-                        <input type="text" name="nome" id="name-forms" placeholder="Nome Completo" class="input-user" required oninput="validaNome()">
+                        <input type="text" name="nome" id="name-forms" placeholder="Nome" class="input-user" required oninput="validaNome()">
                         <span></span>
                     </div>
 
@@ -67,6 +67,7 @@
 </body>
 
 <script src="../js/contato.js"></script>
+<script src="../js/header.js"></script>
 </html>
 
 

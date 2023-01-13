@@ -1,3 +1,13 @@
+Integrantes do grupo:
+
+Daniel Lisboa
+
+Victor Faccioli
+
+Leonardo Reis
+
+Renata Cabrera
+
 Tecnologias:
 
 HTML, CSS e JavaScript
